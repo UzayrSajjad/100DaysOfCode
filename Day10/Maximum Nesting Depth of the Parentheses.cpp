@@ -8,7 +8,8 @@ public:
                 count++;
                 if (max_num < count)
                     max_num = count;
-            } else if (c == ')') {
+            } 
+            else if (c == ')') {
                 count--;
             }
         }
