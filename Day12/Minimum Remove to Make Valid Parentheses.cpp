@@ -16,7 +16,7 @@ public:
             }
             else if(str[i] == ')' ) {
                 if(count == 0) {
-                    str[i] = ' '; // Assign a character, not a string
+                    str[i] = ' '; 
                 } else {
                     count--;
                 }
